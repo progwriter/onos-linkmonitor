@@ -24,3 +24,6 @@ hs_err_pid*
 # IDE files
 .idea
 *.iml
+
+# mvn target
+target/
