@@ -1,5 +1,0 @@
-<features xmlns="http://karaf.apache.org/xmlns/features/v1.2.0" name="${project.artifactId}-${project.version}">
-    <feature name="${project.artifactId}" version="${project.version}" description="${project.description}">
-        <bundle>mvn:com.rabbitmq/amqp-client/4.1.0</bundle>
-    </feature>
-</features>
