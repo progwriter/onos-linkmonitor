@@ -18,20 +18,22 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>edu.unc</groupId>
-    <artifactId>linkloadmonitor</artifactId>
+    <artifactId>onos-linkmonitor</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
+
+    <description>ONOS OSGi bundle archetype</description>
+    <url>http://onosproject.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <onos.version>1.9.0</onos.version>
-        <!-- Uncomment to generate ONOS app from this module. -->
         <onos.app.name>edu.unc.linkmonitor</onos.app.name>
-        <onos.app.title>Streaming Link Load Monitor</onos.app.title>
-        <onos.app.origin>UNC Chapel Hill</onos.app.origin>
-        <onos.app.category>monitoring</onos.app.category>
-        <onos.app.url></onos.app.url>
-        <onos.app.readme>ONOS Link Load monitor</onos.app.readme>
+        <onos.app.title>Link Monitor App</onos.app.title>
+        <onos.app.origin>UNC</onos.app.origin>
+        <onos.app.category>default</onos.app.category>
+        <onos.app.url>http://onosproject.org</onos.app.url>
+        <onos.app.readme>ONOS OSGi bundle archetype.</onos.app.readme>
     </properties>
 
     <dependencies>
@@ -68,12 +70,18 @@
             <version>1.9.12</version>
             <scope>provided</scope>
         </dependency>
-	
+
 	<dependency>
-	  <groupId>com.rabbitmq</groupId>
-	  <artifactId>amqp-client</artifactId>
-	  <version>3.5.4</version>
+	  <groupId>org.osgi</groupId>
+	  <artifactId>org.osgi.compendium</artifactId>
+	  <version>5.0.0</version>
 	</dependency>
+
+	
+	
+
+	
+	
     </dependencies>
 
     <build>

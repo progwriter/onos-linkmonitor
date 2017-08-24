@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package edu.unc;
+package edu.unc.linkmonitor;
 
 import org.junit.After;
 import org.junit.Before;
@@ -22,25 +22,7 @@ import org.junit.Test;
 /**
  * Set of tests of the ONOS application component.
  */
-public class AppComponentTest {
+public class PortStatsBeanTest {
 
-    private AppComponent component;
-
-    @Before
-    public void setUp() {
-        component = new AppComponent();
-        component.activate();
-
-    }
-
-    @After
-    public void tearDown() {
-        component.deactivate();
-    }
-
-    @Test
-    public void basics() {
-
-    }
-
+    
 }
