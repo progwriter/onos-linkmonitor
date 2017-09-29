@@ -1,5 +1,3 @@
-# Onos Linkload monitor
+# ONOS Link load monitor
 
-A small app that monitor port statistics of switches, and computes link loads from them.
-The results are published to a rabbitmq broker so that any other app can consume
-the stats and use them for whatever necessary: data collection, visualization, etc.
+A small app that monitors port stats of all switches in the network, and computes link loads (in bytes and packet numbers).
